@@ -1,0 +1,83 @@
+:root {
+    --color-grey-900: #141414;
+    --color-grey-800: #1f1f1f;
+    --color-grey-700: #333;
+    --color-green: #c4f82a;
+    --color-white: #fff;
+    --space-500: 40px;
+    --space-300: 24px;
+    --space-200: 16px;
+    --space-150: 12px;
+    --space-100: 8px;
+    --space-50: 4px;
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(fonts/Inter-VariableFont_slnt\,wght.ttf)
+}
+
+body {
+    background-color: #141414;
+    margin: 0;
+    padding: 0;
+}
+
+.blog {
+    text-align: center;
+    width: 327px;
+    line-height: 21px;
+    margin: auto;
+    background-color: var(--color-grey-800);
+    font-family: Inter;
+    border-radius: 12px;
+    box-sizing: border-box;
+    padding: var(--space-300)
+}
+
+img {
+    width: 88px;
+    border-radius: 50px;
+    margin: var(--space-300);
+    margin-top: 0;
+}
+
+h2 {
+    color: var(--color-white);
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.origins {
+    color: var(--color-green);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: var(--space-300);
+}
+
+.bio {
+    font-size: 14px;
+    color: var(--color-white);
+    margin-bottom: var(--space-300);
+}
+
+button {
+    background-color: var(--color-grey-700);
+    color: var(--color-white);
+    width: 100%;
+    padding: var(--space-150);
+    font-size: 14px;
+    margin-bottom: var(--space-200);
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    font-family: Inter;
+    cursor: pointer;
+}
+
+
+
+.platforms div:last-child button {
+    margin-bottom: 0;
+}
